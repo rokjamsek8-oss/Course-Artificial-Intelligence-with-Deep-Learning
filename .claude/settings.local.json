@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python -c \"from playwright.sync_api import sync_playwright; print\\('playwright installed'\\)\" 2>&1)",
+      "Bash(.venv/Scripts/python render_pdf.py 2>&1)"
+    ]
+  }
+}
